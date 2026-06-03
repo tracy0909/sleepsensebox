@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-30",
+  "sleep_environment_score": 80,
+  "summary": {
+    "temperature_avg": 26.0,
+    "humidity_avg": 60,
+    "pir_motion_events": 1,
+    "light_events": 1,
+    "distance_change_events": 1,
+    "distance_avg_cm": 45.0,
+    "distance_min_cm": 35.0,
+    "distance_max_cm": 65.0
+  },
+  "top_causes": [
+    "light_change",
+    "motion_detected",
+    "distance_change"
+  ]
+}

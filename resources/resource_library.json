@@ -1,0 +1,32 @@
+[
+  {
+    "tag": "temperature_high",
+    "type": "article",
+    "title": "睡前降低房間溫度的簡單方法",
+    "url": "https://example.com/temp"
+  },
+  {
+    "tag": "humidity_high",
+    "type": "article",
+    "title": "改善房間潮濕與睡眠舒適度",
+    "url": "https://example.com/humidity"
+  },
+  {
+    "tag": "motion_detected",
+    "type": "article",
+    "title": "睡前整理環境，減少夜間起身干擾",
+    "url": "https://example.com/motion"
+  },
+  {
+    "tag": "light_change",
+    "type": "article",
+    "title": "降低夜間光線干擾的方法",
+    "url": "https://example.com/light"
+  },
+  {
+    "tag": "distance_change",
+    "type": "article",
+    "title": "觀察床邊距離變化與夜間活動",
+    "url": "https://example.com/distance"
+  }
+]

@@ -1,0 +1,34 @@
+# SleepSense Box Final GPIO 設定
+# 全部使用 BCM 編號
+
+# LED 狀態燈
+GREEN_LED_PIN = 2
+YELLOW_LED_PIN = 27
+RED_LED_PIN = 22
+
+# DHT11 / DHT22 溫濕度
+DHT_PIN = 26
+
+# PIR 人體紅外線
+PIR_PIN = 23
+
+# 光敏電阻模組 DO
+LIGHT_PIN = 17
+
+# HC-SR04 超音波
+HCSR04_TRIG_PIN = 24
+HCSR04_ECHO_PIN = 25
+
+# 正式收集時間，單位：秒
+COLLECT_SECONDS = 60
+
+# HC-SR04 距離變化門檻，單位：公分
+DISTANCE_CHANGE_THRESHOLD_CM = 20
+
+# HC-SR04 有效距離範圍，單位：公分
+MIN_VALID_DISTANCE_CM = 2
+MAX_VALID_DISTANCE_CM = 400
+
+# DHT 讀取失敗時的備援值
+FALLBACK_TEMPERATURE = 26.0
+FALLBACK_HUMIDITY = 60
