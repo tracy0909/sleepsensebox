@@ -68,6 +68,36 @@ Flask Dashboard / PDF Report / ntfy Notification / LED Status
 
 ---
 
+
+插入下面這段：
+
+:::writing{variant="standard" id="17392"}
+## GPIO Wiring Diagram
+
+The following diagram shows the Raspberry Pi GPIO wiring used in SleepSense Box.
+
+![SleepSense Box GPIO Wiring](raspberry_pi_gpio_wiring.png)
+
+---
+:::
+
+所以更新後順序會變成：
+
+```md
+## System Overview
+
+...
+
+---
+
+## GPIO Wiring Diagram
+
+The following diagram shows the Raspberry Pi GPIO wiring used in SleepSense Box.
+
+![SleepSense Box GPIO Wiring](raspberry_pi_gpio_wiring.png)
+
+---
+
 ## Hardware
 
 | Component        |           GPIO / Connection | What it monitors      | Purpose                                          |
@@ -224,33 +254,7 @@ daily_reports
 ## Project Structure
 
 ```text
-sleepsense-box-dashboard/
-├── app.py
-├── database.py
-├── generate_report.py
-├── generate_pdf.py
-├── send_ntfy.py
-├── run_daily_report.sh
-├── requirements.txt
-├── reports/
-│   └── sleep_report.json
-├── outputs/
-│   ├── daily_message.txt
-│   └── daily_report.pdf
-├── data/
-│   └── sleepsense.db
-├── sensors/
-│   ├── config.py
-│   ├── collect_sensors.py
-│   └── pinout.md
-├── resources/
-│   └── resource_library.json
-└── web/
-    ├── templates/
-    │   └── index.html
-    └── static/
-        ├── style.css
-        └── app.js
+
 ```
 
 ---
